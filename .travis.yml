@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: nvIQzowGZQjpAOI4hQa9CzfC35dLvZ5z3YGOyW/dwx9kxqUIVCRMZqv/yFpV2BZFudDy06Ce2PwuuMwdzouFogsCtjfgJ8+9PtXICnd6ch5eyVdISYHLzcjtm49evqj7dwKsiOq6QB2t40Pq4diwiJTqarfKGv/yoqutdcn9izSKV9hp1EtwUjRnuiyoOSCer0Bg/sJgx/ziPPfHX+DnQk9Ga1jjYiRQhYMf1gMUwpRmSjgK1ebBs3AV3tA3X0Cv+G+1YkZ3FZyXPeHpuFfseEOBo1VBVEhx4Ofr9dLhnYbxzsgO6kpWGUv2qtPT+286oXLYBKgdxmM7qTNt4MZyYkr1bFm8ReLuLNkOWl7mQqk7jO/Fj2ku/+DIpSIHP9/upuWc32g8vW5shPGc/kJ1k4pquSLI/YeQojfYFTM235WhoqLjpwnJvNTfnW7RFSR0+1/7F6VFf4ucKtF4KtF1bYWFawS7//LgjDGinzYOhaqRoSayEtFfbSL+Qx+xdGDJrTDfux+4f5wcVMRsuJ0PReqKxK25vjdkZNUDc3mlCiucQN5vuqtXrcVk8kxWAx928HkvAFwruhvLm+0IzbcXll1geUPzxWrSS6PrEb4gg3SMRO8JUrFwYuxQ3SqglY3oJEya9wk8yawLDyP2ESEiHV5hqMKQeBnJC6wEuPzK4/E=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: patriots123/node-shopping-list-integration-tests
+    branch: tests-for-recies
